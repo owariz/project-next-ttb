@@ -12,10 +12,11 @@ const options: any = {
 const connectDB = async () => {
   try {
     await mongoose.connect(MONGODB_URI, options)
-    console.log('MongoDB connecting...');
+    console.log('MongoDB Connecting...');
   } catch (err: any) {
-    console.error(err.message);
+    return console.error('MongoDB Error: ',err.message);
   }
+  console.log('MongoDB Connected!')
 };
 
 connectDB();
