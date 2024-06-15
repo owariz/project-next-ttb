@@ -11,11 +11,10 @@ const options: any = {
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(MONGODB_URI, options);
-    console.log('MongoDB connected!');
+    await mongoose.connect(MONGODB_URI, options)
+    console.log('MongoDB connecting...');
   } catch (err: any) {
     console.error(err.message);
-    process.exit(1);
   }
 };
 
