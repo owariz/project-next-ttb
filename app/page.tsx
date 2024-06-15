@@ -13,7 +13,7 @@ export default function Home() {
               <p className="font-eng text-base md:text-xl 2xl:text-2xl">Superproject init by TechTitanByte</p>
             </div>
 
-            <button type="button" className="font-thai w-fit text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-transparent transition duration-500 hover:border-green-100 hover:scale-[0.975]">เพิ่มเติม</button>
+            <button type="button" className="font-thai w-96 text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-transparent transition duration-500 hover:border-green-400 hover:bg-green-400/20 hover:scale-[0.975]">เพิ่มเติม</button>
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ptIZhaT_KOo?si=21_v6sRk_hpHUy1j" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="mt-10" />
         </div>

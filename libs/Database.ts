@@ -2,9 +2,7 @@ import mongoose from 'mongoose';
 
 const MONGODB_URI = process.env.NEXT_PUBLIC_MONGODB_URI as string;
 
-if (!MONGODB_URI) {
-  throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
-}
+if (!MONGODB_URI) throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
 
 const options: any = {
   useNewUrlParser: true,
@@ -13,14 +11,12 @@ const options: any = {
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(MONGODB_URI, options);
-    console.log('MongoDB connected...');
+    await mongoose.connect(MONGODB_URI, options)
+    console.log('MongoDB Connecting...');
   } catch (err: any) {
-    console.error(err.message);
-    process.exit(1);
+    return console.error('MongoDB Error: ',err.message);
   }
+  console.log('MongoDB Connected!')
 };
-
-connectDB();
 
 export default connectDB;
