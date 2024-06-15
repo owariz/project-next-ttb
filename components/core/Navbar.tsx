@@ -60,7 +60,7 @@ export default function Navbar() {
                         <Link href={'/product'} className="transition-colors duration-500 ease-out hover:text-gray-300">Product</Link>
                         <Link href={'/developer'} className="transition-colors duration-500 ease-out hover:text-gray-300">Developer</Link>
                         <Link href={'/contact'} className="transition-colors duration-500 ease-out hover:text-gray-300">Contact</Link>
-                        <Link href={'/report'} className="transition-colors duration-500 ease-out hover:text-gray-300">Report</Link>
+                        <Link href={'/report'} className="transition-colors duration-500 ease-out hover:text-gray-300">Feedback</Link>
                     </div>
 
                     <button onClick={toggleMenu} type="button" className="block md:hidden relative text-gray-400 w-[25px] h-[25px]">
@@ -79,7 +79,7 @@ export default function Navbar() {
                 <Link href={'/product'}>Product</Link>
                 <Link href={'/developer'}>Developer</Link>
                 <Link href={'/contact'}>Contact</Link>
-                <Link href={'/report'}>Report</Link>
+                <Link href={'/report'}>Feedback</Link>
             </div>
 
             <div className={`fixed top-0 left-0 w-full h-full bg-black transition-opacity duration-500 z-10 ${isOpen ? 'opacity-50' : 'opacity-0 pointer-events-none'}`} onClick={toggleMenu}></div>
