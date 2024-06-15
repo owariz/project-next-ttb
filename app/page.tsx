@@ -37,7 +37,7 @@ export default function Home() {
                 <br />
                 <p>
                   <span className="font-eng">
-                  <span className="font-eng text-green-400"><b>TechTitanByte</b> </span>  Ours is a software development team and we are planning to develop our team internationally. Our team is ready to build any system, no matter how simple or difficult it is. TechTitanByte Our team is ready to accept and give advice to you. TechTitanByte We have an understanding of a variety of tech and are ready to create products for you in almost every tech stack.
+                  <span className="text-green-400"><b>TechTitanByte</b> </span>  Ours is a software development team and we are planning to develop our team internationally. Our team is ready to build any system, no matter how simple or difficult it is. TechTitanByte Our team is ready to accept and give advice to you. TechTitanByte We have an understanding of a variety of tech and are ready to create products for you in almost every tech stack.
                   </span>
                 </p>
               </div>
