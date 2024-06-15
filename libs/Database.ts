@@ -19,6 +19,4 @@ const connectDB = async () => {
   console.log('MongoDB Connected!')
 };
 
-connectDB();
-
 export default connectDB;
