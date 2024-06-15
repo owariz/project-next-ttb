@@ -44,6 +44,30 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="py-[100px] flex justify-center px-6 2xl:px-0">
+          <div className="w-[1280px]">
+            <div className="mb-24 md:mb-32">
+              <div className="text-center mb-16">
+                <h1 className="font-eng w-fit mx-auto pt-2 text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500 font-bold">Products</h1>
+              </div>
+              
+              <div className="flex flex-col md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
+                <div className="w-full md:w-[520px] px-0 md:px-[60px] md:border-r md:border-gray-200">
+                  <div className="py-3 px-5 bg-green-400/10 border border-green-400 rounded-lg">
+                    
+                  </div>
+                </div>
+
+                <div className="w-full md:w-[520px] px-0 md:px-[60px] md:border-r md:border-gray-200">
+                  <div className="py-3 px-5 bg-green-400/10 border border-green-400 rounded-lg">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </Container>
     </>
   )
