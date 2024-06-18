@@ -7,11 +7,11 @@ export default function Footer() {
     return (
     <>
     <div className="bg-green-900/75 p-8 text-white">
-            <div className="mx-auto myContainer">
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-around gap-6">
+            <div className="mx-auto">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-between gap-6">
                     <div className="w-full flex lg:justify-center">
                         <div>
-                            <img src="images/rdcww.png" className="h-10 mb-4" />
+                            {/* <img src="" className="h-10 mb-4" /> */}
                             <p className="font-bold">
                                 TechTitanByte
                             </p>
@@ -37,11 +37,8 @@ export default function Footer() {
         
         <footer className='font-eng px-6 2xl:px-0 text-center bg-black py-6 text-gray-400'>
             <div className="container mx-auto">
-                <span>&copy; { currentYear } <Link href={'/'} className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 font-semibold">TTByte</Link> | made ❤️ by team 
-                    <span className="hidden md:inline-flex">&nbsp;techtitanbyte(variz.h264)&nbsp;</span>
-                    <span className="inline-flex md:hidden">&nbsp;ttbyte(variz.h264)&nbsp;</span>
-                </span>
-                <span className="block md:inline-flex">| all rights reserved.</span>
+                <span>&copy; { currentYear } <Link href={'/'} className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 font-semibold">TechTitanByte</Link> </span>
+                <span className="block md:inline-flex">| All rights reserved.</span>
             </div>
         </footer>
     </>
