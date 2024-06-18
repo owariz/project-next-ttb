@@ -63,7 +63,7 @@ export default function Report({ onClose }: ReportProps) {
                   <input
                     type="text"
                     name="title"
-                    className="w-full px-4 py-2 text-white bg-white/10 rounded-md"
+                    className="w-full px-4 py-2 text-white bg-white/10 rounded-md outline-none"
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     required
@@ -73,7 +73,7 @@ export default function Report({ onClose }: ReportProps) {
                   <p className="text-xs text-gray-400 mb-1">ปัญหาที่พบ</p>
                   <textarea
                     name="problem"
-                    className="w-full px-4 py-2 text-white bg-white/10 rounded-md"
+                    className="w-full px-4 py-2 text-white bg-white/10 rounded-md outline-none"
                     value={problem}
                     onChange={(e) => setProblem(e.target.value)}
                     required
