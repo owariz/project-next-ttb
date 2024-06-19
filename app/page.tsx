@@ -11,7 +11,7 @@ export default function Home() {
                 Welcome to <br className="inline-flex md:hidden"></br>FullTech Website
               </h1>
               
-              <p className="font-eng text-base md:text-xl 2xl:text-2xl">Superproject init by FullTech</p>
+              <p className="font-eng text-base md:text-xl 2xl:text-2xl">Full Service Software Development</p>
             </div>
 
             <button type="button" className="font-thai w-96 text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-transparent transition duration-500 hover:border-green-400 hover:bg-green-400/20 hover:scale-[0.975]">เพิ่มเติม</button>
