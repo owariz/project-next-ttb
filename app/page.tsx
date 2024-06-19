@@ -8,7 +8,7 @@ export default function Home() {
         <div className="relative pt-[40px] flex flex-col items-center mb-16">
             <div className="text-center text-gray-400 mb-8">
               <h1 className="font-eng text-5xl md:text-5xl 2xl:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-500 font-bold mb-4">
-                Welcome to <br className="inline-flex md:hidden"></br>FullTech Website
+                Welcome to <br className="inline-flex md:hidden"></br>FullTech
               </h1>
               
               <p className="font-eng text-base md:text-xl 2xl:text-2xl">Full Service Software Development</p>
