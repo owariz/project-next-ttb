@@ -3,16 +3,12 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 
-import { useSettings } from "@/context/SettingsProvider";
 import Report from "./Report";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
     const [scrollProgress, setScrollProgress] = useState(0)
     const [showLogin, setShowLogin] = useState(false);
-
-    const settings: any = useSettings();
-    const setting = settings.data
 
     const report = () => {
         setShowLogin(true);
@@ -61,13 +57,13 @@ export default function Navbar() {
                 <div className="px-6 2xl:px-0 w-full xl:w-[1480px] h-full flex justify-between items-center">
                     <div className="flex items-center space-x-4">
                         <Link href={'/'} className="flex space-x-2 items-center transition duration-500 ease-out hover:scale-110">
-                            <h1 className={`font-eng font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-400`}>{setting.website.title}</h1>
+                            <h1 className={`font-eng font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-400`}>FullTech</h1>
                         </Link>
                     </div>
 
                     <div className="font-eng hidden md:flex items-center font-medium space-x-8 text-gray-400">
-                        <Link href={'/product'} className="transition-colors duration-500 ease-out hover:text-gray-300">Product</Link>
-                        <Link href={'/developer'} className="transition-colors duration-500 ease-out hover:text-gray-300">Developer</Link>
+                        <Link href={'#product'} className="transition-colors duration-500 ease-out hover:text-gray-300">Product</Link>
+                        <Link href={'#developer'} className="transition-colors duration-500 ease-out hover:text-gray-300">Developer</Link>
                         <button onClick={report} className="transition-colors duration-500 ease-out hover:text-gray-300">Report</button>
                     </div>
 
