@@ -26,6 +26,7 @@ export default function Footer() {
                             <h1 className="font-bold text-xl mb-2">ติดต่อ</h1>
                             <ul>
                                 <li>โทรศัพท์ : <a className="font-bold" href="#" target="_blank">000-000-0000</a></li>
+                                <li>โทรศัพท์ : <a className="font-bold" href="#" target="_blank">000-000-0000</a></li>
                                 <li>อีเมล์ : <a className="font-bold" href="#" target="_blank">contact@techtitanbyte.co.th</a></li>
                                 <li>เพจ Facebook : <a className="font-bold" href="#" target="_blank">TechTitanByte</a></li>
                             </ul>
