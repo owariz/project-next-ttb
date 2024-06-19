@@ -13,7 +13,7 @@ export default function Footer() {
                         <div>
                             {/* <img src="" className="h-10 mb-4" /> */}
                             <p className="font-bold">
-                                TechTitanByte
+                                FullTech
                             </p>
                             <p className="text-gray-300">
                                 00/00 กรุงเทพมหานคร 10400
@@ -23,12 +23,12 @@ export default function Footer() {
 
                     <div className="w-full flex md:justify-center">
                         <div>
-                            <h1 className="font-bold text-xl mb-2">ติดต่อ</h1>
+                            <h1 className="font-bold text-xl mb-2">Contact</h1>
                             <ul>
-                                <li>โทรศัพท์ : <a className="font-bold" href="#" target="_blank">000-000-0000</a></li>
-                                <li>โทรศัพท์ : <a className="font-bold" href="#" target="_blank">000-000-0000</a></li>
-                                <li>อีเมล์ : <a className="font-bold" href="#" target="_blank">contact@techtitanbyte.co.th</a></li>
-                                <li>เพจ Facebook : <a className="font-bold" href="#" target="_blank">TechTitanByte</a></li>
+                                <li>Phone : <a className="font-bold" href="#" target="_blank">000-000-0000</a></li>
+                                <li>Phone : <a className="font-bold" href="#" target="_blank">000-000-0000</a></li>
+                                <li>Email : <a className="font-bold" href="#" target="_blank">contact@FullTech.co.th</a></li>
+                                <li>Facebook : <a className="font-bold" href="#" target="_blank">FullTech</a></li>
                             </ul>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default function Footer() {
         
         <footer className='font-eng px-6 2xl:px-0 text-center bg-black py-6 text-gray-400'>
             <div className="container mx-auto">
-                <span>&copy; { currentYear } <Link href={'/'} className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 font-semibold">TechTitanByte</Link> </span>
+                <span>&copy; { currentYear } <Link href={'/'} className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 font-semibold">FullTech</Link> </span>
                 <span className="block md:inline-flex">| All rights reserved.</span>
             </div>
         </footer>

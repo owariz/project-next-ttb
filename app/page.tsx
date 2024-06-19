@@ -8,10 +8,10 @@ export default function Home() {
         <div className="relative pt-[40px] flex flex-col items-center mb-16">
             <div className="text-center text-gray-400 mb-8">
               <h1 className="font-eng text-5xl md:text-5xl 2xl:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-500 font-bold mb-4">
-                Welcome to <br className="inline-flex md:hidden"></br>TechTitanByte Website
+                Welcome to <br className="inline-flex md:hidden"></br>FullTech Website
               </h1>
               
-              <p className="font-eng text-base md:text-xl 2xl:text-2xl">Superproject init by TechTitanByte</p>
+              <p className="font-eng text-base md:text-xl 2xl:text-2xl">Superproject init by FullTech</p>
             </div>
 
             <button type="button" className="font-thai w-96 text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-transparent transition duration-500 hover:border-green-400 hover:bg-green-400/20 hover:scale-[0.975]">เพิ่มเติม</button>
@@ -28,17 +28,17 @@ export default function Home() {
 
               <div className="w-full text-white text-base md:text-xl">
                 <p>
-                  <span className="font-eng text-green-400"><b>TechTitanByte</b> </span> 
+                  <span className="font-eng text-green-400"><b>FullTech</b> </span> 
                   <span className="font-thai">
                     ของเราเป็นทีมพัฒนาซอฟต์แวร์และเรากำลังวางแผนที่จะพัฒนาทีมของเราให้อยู่ในระดับสากล 
-                    ทีมของเรานั้นพร้อมที่จะสร้างทุกระบบไม่ว่าตัวระบบนั้นจะง่ายหรือยากแค่ไหนทีม TechTitanByte ของเราก็พร้อมรับทำและให้คำปรึกษากับคุณได้ 
-                    TechTitanByte ของเรามีความเข้าใจในเรื่อง Tech หลากหลายพร้อมสร้าง Product ให้กับคุณได้แทบจะทุก tech stack เลยก็ว่าได้
+                    ทีมของเรานั้นพร้อมที่จะสร้างทุกระบบไม่ว่าตัวระบบนั้นจะง่ายหรือยากแค่ไหนทีม FullTech ของเราก็พร้อมรับทำและให้คำปรึกษากับคุณได้ 
+                    FullTech ของเรามีความเข้าใจในเรื่อง Tech หลากหลายพร้อมสร้าง Product ให้กับคุณได้แทบจะทุก tech stack เลยก็ว่าได้
                   </span>
                 </p>
                 <br />
                 <p>
                   <span className="font-eng">
-                    <span className="text-green-400"><b>TechTitanByte</b> </span>  Ours is a software development team and we are planning to develop our team internationally. Our team is ready to build any system, no matter how simple or difficult it is. TechTitanByte Our team is ready to accept and give advice to you. TechTitanByte We have an understanding of a variety of tech and are ready to create products for you in almost every tech stack.
+                    <span className="text-green-400"><b>FullTech</b> </span>  Ours is a software development team and we are planning to develop our team internationally. Our team is ready to build any system, no matter how simple or difficult it is. FullTech Our team is ready to accept and give advice to you. FullTech We have an understanding of a variety of tech and are ready to create products for you in almost every tech stack.
                   </span>
                 </p>
               </div>
