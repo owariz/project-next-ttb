@@ -15,17 +15,17 @@ export default function Home() {
     image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F0a03bc76-9457-4be8-b9f7-4a1f8e43dc80?alt=media&token=7d914211-56d3-4869-b1c5-1d8e3af76db5'
   }, {
     name: 'Satit Akkeeroj',
-    role: 'UX/UI Designer',
+    role: 'Developer / UX/UI Designer',
     desc: 'It is not the mountain we conquer but ourselves',
     image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F9f4a9fa3-e596-4fad-8d7f-e311f46ffc3a?alt=media&token=16cd96b2-576a-48e3-a462-b41b046d7429'
   }, {
     name: 'Supakorn Montreewan',
-    role: 'Game Developer',
+    role: 'Developer',
     desc: 'No matter how long you spend climbing out, you can still fall back down in an instant.',
     image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F7a030a7f-63b5-45bf-90b3-1368859b8dd2?alt=media&token=f8e4f8ed-1eb7-43df-9290-b0164e3449ce'
   }, {
     name: 'Muhammad Hussain Rana',
-    role: 'IT Support',
+    role: 'Developer / IT Support',
     desc: `🍾 Always remember you're someone's reason to smile because you're a joke.`,
     image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F537b7f49-f42a-420b-9e43-0a7ff0272e8a?alt=media&token=6b461002-d7c4-4f96-9762-9cd0dddb5e24'
   }]
