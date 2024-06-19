@@ -67,22 +67,11 @@ export default function Navbar() {
                         <button onClick={report} className="transition-colors duration-500 ease-out hover:text-gray-300">Report</button>
                     </div>
 
-                    <button onClick={toggleMenu} type="button" className="block md:hidden relative text-gray-400 w-[25px] h-[25px]">
-                        <span className={`absolute top-0 left-0 text-2xl transition-transform duration-500 transform ${isOpen ? 'scale-75 rotate-45 opacity-0' : 'scale-100 rotate-0 opacity-100'}`}>
-                            <i className="fal fa-bars"></i>
-                        </span>
-                        <span className={`absolute top-0 left-0 text-2xl transition-transform duration-500 transform ${isOpen ? 'scale-100 rotate-0 opacity-100' : 'scale-75 -rotate-45 opacity-0'}`}>
-                            <i className="fal fa-times"></i>
-                        </span>
-                    </button>
+                    <div className="block md:hidden relative text-gray-400 w-[25px] h-[25px] mr-5">
+                        <button onClick={report} className="transition-colors duration-500 ease-out hover:text-gray-300">Report</button>
+                    </div>
                 </div>
             </nav>
-
-            <div className={`fixed top-[70px] left-0 w-full h-[calc(100vh-70px)] z-50 p-8 flex flex-col gap-2 text-2xl text-gray-400 bg-white transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-                <Link href={'/product'}>Product</Link>
-                <Link href={'/developer'}>Developer</Link>
-                <Link href={'/report'}>Report</Link>
-            </div>
 
             <div className={`fixed top-0 left-0 w-full h-full bg-black transition-opacity duration-500 z-10 ${isOpen ? 'opacity-50' : 'opacity-0 pointer-events-none'}`} onClick={toggleMenu}></div>
             <div className="fixed top-[70px] left-0 w-full h-1 bg-gradient-to-r from-green-300 to-green-500 z-50" style={{ width: scrollProgress }}></div>
