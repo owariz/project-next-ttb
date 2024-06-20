@@ -26,8 +26,8 @@ export default function Product() {
 
             <div className="flex flex-col md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
                 {prods.map((p, i) => (
-                    <div className={`w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == prods.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
-                        <div key={i} className="py-3 px-5 border border-green-400 rounded-lg transition duration-500 hover:bg-green-400/20">
+                    <div key={i} className={`w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == prods.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
+                        <div className="py-3 px-5 border border-green-400 rounded-lg transition duration-500 hover:bg-green-400/20">
                             <a href={p.link} rel="noopener noreferrer" target="_blank">
                                 <Image src={p.image} className=" rounded-lg mb-3" width={1000} height={1000} alt={p.project} />
                             </a>
