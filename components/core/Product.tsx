@@ -5,17 +5,17 @@ export default function Product() {
     const prods = [{
         "project": "TTShort",
         "releases": "00/00/2024",
-        "developer": "variz",
+        "type": "Website",
         "link": "https://ttshort.vercel.app/",
         "image": "/ttshort.png",
-        "story": "Project นี้ตอนแรกเราสร้างขึ้นมาเผื่อใช้งานในทีมของเราเองเพราะบางที่มีคนส่งลิ้งค์ยาวๆให้ปล้วมันจำยากหรือเราจะส่งให้ใครเราก็ไม่อยากส่งลิ้งค์ที่มันยาวๆไปเพราะจะดูไม่ค่อยเป็นมืออาชีพ5555 แต่ตอนนี้เราก็เปิดให้ทุกคนได้เขามาใช้งานกันแล้ว"
+        "desc": "Simple Short URL Project"
     }, {
         "project": "FreeAnalytics",
         "releases": "00/00/2024",
-        "developer": "9ho",
+        "type": "Website",
         "link": "https://free-analytics.web.app/",
         "image": "/free-analytics.png",
-        "story": "ที่เราสร้างตัว Analytics Tool ตัวนี้ขึ้นมาเพราะเราอยากมีเป็นของตัวเองแล้วอีกอย่างถ้าใช้ของ Vercel ไปสักพักมันจะเต็มตอนนั้นก็เลยตัดสินใจสร้างเว็บ Analytics ขึ้นมาใช้เองเลยเพราะเราจะได้จัดการได้ทุกอย่างเลยด้วยคือถ้ามีเป็นของตัวเองเราก็ปรับได้ทุกอย่างเลย"
+        "desc": "Simple Free Analytics Tools Website"
     }]
 
     return (
@@ -38,11 +38,11 @@ export default function Product() {
                                 <span className="font-eng text-green-100/50">Releases {p.releases}</span>
 
                                 <div>
-                                    <span className="font-thai text-sm px-8 bg-transparent text-green-400 rounded-full border-2 border-green-300">{p.developer}</span>
+                                    <span className="font-thai text-sm px-8 bg-transparent text-green-400 rounded-full border-2 border-green-300">{p.type}</span>
                                 </div>
                             </div>
 
-                            <p className="font-thai text-white my-3">{p.story}</p>
+                            <p className="font-thai text-white my-3">{p.desc}</p>
                         </div>
                     </div>
                 ))}
