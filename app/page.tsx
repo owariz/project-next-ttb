@@ -1,6 +1,7 @@
 import Container from "@/components/interface/Container";
 import Image from "next/image";
 import Link from "next/link";
+import FA from 'f-analytics'
 
 export default function Home() {
   const teams = [{
@@ -29,6 +30,7 @@ export default function Home() {
     desc: `🍾 Always remember you're someone's reason to smile because you're a joke.`,
     image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F537b7f49-f42a-420b-9e43-0a7ff0272e8a?alt=media&token=6b461002-d7c4-4f96-9762-9cd0dddb5e24'
   }]
+  FA('cbb33add-20e2-4686-b79a-6e394ce6ff73');
   return (
     <>
       <Container>
@@ -116,7 +118,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <p className="font-thai text-white my-3">ที่เราสร้างตัว Analytics Tool ตัวนี้ขึ้นมาเพราะเราอยากมีเป็นของตัวเองแล้วอีกอย่างถ้าใช้ของ Vercel ไปสักพักมันจะเต็มตอนนั้นก็เลยตัดสินใจสร้างเว็บ Analytics ขึ้นมาใช้เองเลยเพราะเราจะได้จัดการได้ทุกอย่างเลยด้วยคือถ้ามีเป็นของตัวเองเราก็ปรับได้ทุกอย่างเลย</p>
+                    <p className="font-thai text-white my-3">-</p>
                   </div>
                 </div>
               </div>
