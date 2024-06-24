@@ -24,11 +24,11 @@ export default function Product() {
         "image": "https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2FScreenshot%202024-06-25%20031520.png?alt=media&token=d7eb23ae-d2ec-4a87-b925-41ed55be2ee7",
         "desc": "Post-it in the online world where you can create a public or private board and share it with your friends to write Post-it on the board."
     }]
-
+    // Boom, Pls optimize your hard code and fix your css, responsive
     return (
         <>
             <div className="text-center mb-16">
-                <h1 className="font-eng w-fit mx-auto pt-2 text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500 font-bold">Products</h1>
+                <h1 className="font-eng w-fit mx-auto pt-2 text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500 font-bold">Projects</h1>
             </div>
 
             <div className="flex flex-col md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
@@ -56,7 +56,7 @@ export default function Product() {
             </div>
 
             <div className="flex justify-center mb-16">
-                <Link href={'/products'} className="font-thai w-96 text-center text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-green-300 transition duration-500 hover:border-green-400 hover:bg-green-400/20 hover:scale-[0.975]">ผลงานทั้งหมด</Link>
+                <Link href={'/projects'} className="font-thai w-96 text-center text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-green-300 transition duration-500 hover:border-green-400 hover:bg-green-400/20 hover:scale-[0.975]">ผลงานทั้งหมด</Link>
             </div>
         </>
     )

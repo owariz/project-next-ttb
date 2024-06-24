@@ -1,6 +1,6 @@
 'use client'
 import Developer from "@/components/core/Developer";
-import Product from "@/components/core/Product";
+import Project from "@/components/core/Project";
 import Way from "@/components/core/Way";
 import Container from "@/components/interface/Container";
 import Link from "next/link";
@@ -27,10 +27,10 @@ export default function Home() {
 
         <Way />
 
-        <div id="product" className="pt-[100px] flex justify-center px-6 2xl:px-0">
+        <div id="project" className="pt-[100px] flex justify-center px-6 2xl:px-0">
           <div className="w-[1280px]">
             <div className="mb-24 md:mb-32">
-              <Product />
+              <Project />
               <Developer />
             </div>
           </div>
