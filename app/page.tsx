@@ -6,6 +6,7 @@ import Link from "next/link";
 import FA from 'f-analytics'
 
 export default function Home() {
+  FA('cbb33add-20e2-4686-b79a-6e394ce6ff73')
   return (
     <>
       <Container>
@@ -28,7 +29,7 @@ export default function Home() {
         <div id="product" className="pt-[100px] flex justify-center px-6 2xl:px-0">
           <div className="w-[1280px]">
             <div className="mb-24 md:mb-32">
-              <Product />              
+              <Product />
               <Developer />
             </div>
           </div>
