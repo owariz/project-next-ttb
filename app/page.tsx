@@ -1,3 +1,4 @@
+'use client'
 import Developer from "@/components/core/Developer";
 import Product from "@/components/core/Product";
 import Way from "@/components/core/Way";
