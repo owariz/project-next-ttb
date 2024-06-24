@@ -25,7 +25,7 @@ export default function Developer() {
         name: 'Muhammad Hussain Rana',
         role: 'Developer / IT Support',
         desc: `🍾 Always remember you're someone's reason to smile because you're a joke.`,
-        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F537b7f49-f42a-420b-9e43-0a7ff0272e8a?alt=media&token=6b461002-d7c4-4f96-9762-9cd0dddb5e24'
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2Fbc3a4ab1-003c-43e0-ac42-06902b01d775?alt=media&token=040e1f92-07eb-4bff-8e19-29f14fd7e014'
     }]
     
     return (
