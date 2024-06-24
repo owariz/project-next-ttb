@@ -56,9 +56,9 @@ export default function Navbar() {
             <nav className={`fixed w-full top-0 left-0 z-50 h-[70px] flex justify-center bg-black/10 backdrop-blur-md`}>
                 <div className="px-6 2xl:px-0 w-full xl:w-[1480px] h-full flex justify-between items-center">
                     <div className="flex items-center space-x-4">
-                        <Link href={'/'} className="flex space-x-2 items-center transition duration-500 ease-out hover:scale-110">
+                        <a href={'/'} className="flex space-x-2 items-center transition duration-500 ease-out hover:scale-110">
                             <h1 className={`font-eng font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-400`}>FullTech</h1>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className="font-eng hidden md:flex items-center font-medium space-x-8 text-gray-400">
@@ -73,7 +73,6 @@ export default function Navbar() {
                 </div>
             </nav>
 
-            <div className={`fixed top-0 left-0 w-full h-full bg-black transition-opacity duration-500 z-10 ${isOpen ? 'opacity-50' : 'opacity-0 pointer-events-none'}`} onClick={toggleMenu}></div>
             <div className="fixed top-[70px] left-0 w-full h-1 bg-gradient-to-r from-green-300 to-green-500 z-50" style={{ width: scrollProgress }}></div>
 
             {showLogin && <Report onClose={reportClose} />}
