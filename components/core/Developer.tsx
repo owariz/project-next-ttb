@@ -25,7 +25,17 @@ export default function Developer() {
         name: 'Muhammad Hussain Rana',
         role: 'Developer / IT Support',
         desc: `🍾 Always remember you're someone's reason to smile because you're a joke.`,
-        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F537b7f49-f42a-420b-9e43-0a7ff0272e8a?alt=media&token=6b461002-d7c4-4f96-9762-9cd0dddb5e24'
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2Fbc3a4ab1-003c-43e0-ac42-06902b01d775?alt=media&token=040e1f92-07eb-4bff-8e19-29f14fd7e014'
+    },{
+        name: 'Bom Wasurat',
+        role: 'Tester',
+        desc: '...',
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F449724440_825601732505464_8669372810596658179_n.jpg?alt=media&token=7ce9e8de-d040-448a-bbb6-bb3cbe878014'
+    },{
+        name: 'FU SE',
+        role: 'Accounting',
+        desc: '...',
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F429674422_442940711486691_1141564563363107158_n.jpg?alt=media&token=8a0423e3-d478-4f90-9c46-d70e14132418'
     }]
     
     return (
@@ -36,7 +46,7 @@ export default function Developer() {
 
             <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
                 {teams.map((t, i) => (
-                    <div key={i} className={`mt-16 w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == teams.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
+                    <div data-aos={i % 2 === 0 && i + 1 == teams.length ? "fade-up" : i % 2 === 0 ? "fade-left" : "fade-right"} key={i} className={`mt-16 w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == teams.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
                         <div className="py-3 px-5 border border-green-400 rounded-lg transition duration-500 hover:bg-green-400/20">
                             <div className="flex flex-row gap-2">
                                 <Image src={t.image} alt={t.name} className="min-w-[80px] max-h-[80px] object-cover rounded-full" width={80} height={80} />

@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",
+    "@types/aos": "^3.0.7",
+    "aos": "^2.3.4",
     "f-analytics": "^1.1.0",
     "mongoose": "^8.4.1",
     "next": "14.2.3",

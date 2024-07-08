@@ -62,7 +62,7 @@ export default function Navbar() {
                     </div>
 
                     <div className="font-eng hidden md:flex items-center font-medium space-x-8 text-gray-400">
-                        <Link href={'#product'} className="transition-colors duration-500 ease-out hover:text-gray-300">Product</Link>
+                        <Link href={'#project'} className="transition-colors duration-500 ease-out hover:text-gray-300">Project</Link>
                         <Link href={'#developer'} className="transition-colors duration-500 ease-out hover:text-gray-300">Developer</Link>
                         <button onClick={report} className="transition-colors duration-500 ease-out hover:text-gray-300">Report</button>
                     </div>
