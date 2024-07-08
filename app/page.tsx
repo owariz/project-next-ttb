@@ -5,6 +5,7 @@ import Way from "@/components/core/Way";
 import Container from "@/components/interface/Container";
 import Link from "next/link";
 import FA from 'f-analytics'
+import Image from "next/image"
 
 export default function Home() {
   FA('cbb33add-20e2-4686-b79a-6e394ce6ff73')
@@ -20,8 +21,8 @@ export default function Home() {
             <p className="font-eng text-base md:text-xl 2xl:text-2xl">Full Service Software Development</p>
           </div>
 
-          <Link href={'#way'} className="font-thai w-96 text-center text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-transparent transition duration-500 hover:border-green-400 hover:bg-green-400/20 hover:scale-[0.975]">เพิ่มเติม</Link>
-
+          <img src="/FullTech-V2.png"></img>
+          <Link href={'#way'} className="font-thai w-96 text-center text-base md:text-xl px-8 md:px-12 py-2 md:py-3 bg-transparent text-green-400 rounded-full border-2 border-transparent transition duration-500 hover:border-green-400 hover:bg-green-400/20 hover:scale-[0.975]">More</Link>
           {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/ptIZhaT_KOo?si=21_v6sRk_hpHUy1j" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="mt-10" /> */}
         </div>
 
