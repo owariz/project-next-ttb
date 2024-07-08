@@ -46,7 +46,7 @@ export default function Developer() {
 
             <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
                 {teams.map((t, i) => (
-                    <div key={i} className={`mt-16 w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == teams.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
+                    <div data-aos={i % 2 === 0 && i + 1 == teams.length ? "fade-up" : i % 2 === 0 ? "fade-left" : "fade-right"} key={i} className={`mt-16 w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == teams.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
                         <div className="py-3 px-5 border border-green-400 rounded-lg transition duration-500 hover:bg-green-400/20">
                             <div className="flex flex-row gap-2">
                                 <Image src={t.image} alt={t.name} className="min-w-[80px] max-h-[80px] object-cover rounded-full" width={80} height={80} />

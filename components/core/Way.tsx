@@ -5,11 +5,11 @@ export default function Way() {
         <div id="way" className="pt-[100px] pb-[100px] flex justify-center px-6 2xl:px-0">
             <div className="w-full xl:w-[1280px]">
                 <div className="flex flex-col md:flex-row gap-8 md:gap-0">
-                    <div className="md:min-w-[450px]">
+                    <div data-aos="fade-up-right" className="md:min-w-[450px]">
                         <h1 className="font-thai text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500 font-bold">เราคือใคร?</h1>
                     </div>
 
-                    <div className="w-full text-white text-base md:text-xl">
+                    <div data-aos="fade-up-left" className="w-full text-white text-base md:text-xl">
                         <p>
                             <span className="font-eng text-green-400"><b>FullTech</b> </span>
                             <span className="font-thai">
