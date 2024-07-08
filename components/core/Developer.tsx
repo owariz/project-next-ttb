@@ -26,6 +26,16 @@ export default function Developer() {
         role: 'Developer / IT Support',
         desc: `🍾 Always remember you're someone's reason to smile because you're a joke.`,
         image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2Fbc3a4ab1-003c-43e0-ac42-06902b01d775?alt=media&token=040e1f92-07eb-4bff-8e19-29f14fd7e014'
+    },{
+        name: 'Bom Wasurat',
+        role: 'Tester',
+        desc: '...',
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F449724440_825601732505464_8669372810596658179_n.jpg?alt=media&token=7ce9e8de-d040-448a-bbb6-bb3cbe878014'
+    },{
+        name: 'FU SE',
+        role: 'Accounting',
+        desc: '...',
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F429674422_442940711486691_1141564563363107158_n.jpg?alt=media&token=8a0423e3-d478-4f90-9c46-d70e14132418'
     }]
     
     return (
