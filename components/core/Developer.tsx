@@ -29,12 +29,12 @@ export default function Developer() {
     },{
         name: 'Bom Wasurat',
         role: 'Tester',
-        desc: '...',
+        desc: 'Be content with what you have, be happy with what you get.',
         image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F449724440_825601732505464_8669372810596658179_n.jpg?alt=media&token=7ce9e8de-d040-448a-bbb6-bb3cbe878014'
     },{
         name: 'FU SE',
         role: 'Accounting',
-        desc: '...',
+        desc: 'No Glitch',
         image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F429674422_442940711486691_1141564563363107158_n.jpg?alt=media&token=8a0423e3-d478-4f90-9c46-d70e14132418'
     }]
     

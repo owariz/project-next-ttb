@@ -31,7 +31,7 @@ export default function Product() {
                 <h1 className="font-eng w-fit mx-auto pt-2 text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500 font-bold">Projects</h1>
             </div>
 
-            <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
+            <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16 mx-6 lg:mx-0">
                 {prods.map((p, i) => (
                     <div data-aos={i % 2 === 0 && i + 1 == prods.length ? "fade-up" : i % 2 === 0 ? "fade-left" : "fade-right"} key={i} className={`w-full md:w-[520px] mb-16 px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == prods.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
                         <div className="py-3 px-5 border border-green-400 rounded-lg transition duration-500 hover:bg-green-400/20">
