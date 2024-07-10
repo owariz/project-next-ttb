@@ -44,7 +44,7 @@ export default function Developer() {
                 <h1 id="developer" className="font-eng w-fit mx-auto pt-2 text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500 font-bold">Developers</h1>
             </div>
 
-            <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
+            <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16 overflow-hidden">
                 {teams.map((t, i) => (
                     <div data-aos={i % 2 === 0 && i + 1 == teams.length ? "fade-up" : i % 2 === 0 ? "fade-left" : "fade-right"} key={i} className={`mt-16 w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == teams.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
                         <div className="py-3 px-5 border border-green-400 rounded-lg transition duration-500 hover:bg-green-400/20">

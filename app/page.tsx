@@ -37,7 +37,7 @@ export default function Home() {
         <Way />
 
         <div id="project" className="pt-[100px] flex justify-center px-6 2xl:px-0">
-          <div className="w-[1280px]">
+          <div className="w-full">
             <div className="mb-24 md:mb-32">
               <Project />
               <Developer />
