@@ -10,7 +10,7 @@ export default function Developer() {
         name: 'Panit Thapwon',
         role: 'Co-Founder / CTO / Developer',
         desc: 'Trust in the power of code.',
-        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F0a03bc76-9457-4be8-b9f7-4a1f8e43dc80?alt=media&token=7d914211-56d3-4869-b1c5-1d8e3af76db5'
+        image: 'https://cdn.discordapp.com/attachments/1084786617677520977/1265515312762195998/IMG_20240720_202852_552.jpg?ex=66a1ca7a&is=66a078fa&hm=8c49d960318318b92494979d8a593e726413d117dce5898f2e1ac344738c856d&'
     }, {
         name: 'Satit Akkeeroj',
         role: 'Developer / UX/UI Designer',
