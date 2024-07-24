@@ -10,7 +10,7 @@ export default function Developer() {
         name: 'Panit Thapwon',
         role: 'Co-Founder / CTO / Developer',
         desc: 'Trust in the power of code.',
-        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F0a03bc76-9457-4be8-b9f7-4a1f8e43dc80?alt=media&token=7d914211-56d3-4869-b1c5-1d8e3af76db5'
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2FIMG_20240720_202852_552.jpg?alt=media&token=8b5b5f36-7a3d-4f44-b43c-5b2b896cc0f5'
     }, {
         name: 'Satit Akkeeroj',
         role: 'Developer / UX/UI Designer',
