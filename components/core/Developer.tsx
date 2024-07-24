@@ -10,7 +10,7 @@ export default function Developer() {
         name: 'Panit Thapwon',
         role: 'Co-Founder / CTO / Developer',
         desc: 'Trust in the power of code.',
-        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F0a03bc76-9457-4be8-b9f7-4a1f8e43dc80?alt=media&token=7d914211-56d3-4869-b1c5-1d8e3af76db5'
+        image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2FIMG_20240720_202852_552.jpg?alt=media&token=8b5b5f36-7a3d-4f44-b43c-5b2b896cc0f5'
     }, {
         name: 'Satit Akkeeroj',
         role: 'Developer / UX/UI Designer',
@@ -29,12 +29,12 @@ export default function Developer() {
     },{
         name: 'Bom Wasurat',
         role: 'Tester',
-        desc: '...',
+        desc: 'Be content with what you have, be happy with what you get.',
         image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F449724440_825601732505464_8669372810596658179_n.jpg?alt=media&token=7ce9e8de-d040-448a-bbb6-bb3cbe878014'
     },{
         name: 'FU SE',
         role: 'Accounting',
-        desc: '...',
+        desc: 'No Glitch',
         image: 'https://firebasestorage.googleapis.com/v0/b/imagestorage-afd63.appspot.com/o/image%2F429674422_442940711486691_1141564563363107158_n.jpg?alt=media&token=8a0423e3-d478-4f90-9c46-d70e14132418'
     }]
     
@@ -44,7 +44,7 @@ export default function Developer() {
                 <h1 id="developer" className="font-eng w-fit mx-auto pt-2 text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500 font-bold">Developers</h1>
             </div>
 
-            <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16">
+            <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-0 mb-12 md:mb-16 overflow-hidden">
                 {teams.map((t, i) => (
                     <div data-aos={i % 2 === 0 && i + 1 == teams.length ? "fade-up" : i % 2 === 0 ? "fade-left" : "fade-right"} key={i} className={`mt-16 w-full md:w-[520px] px-0 md:px-[60px] ${i % 2 === 0 && i + 1 == teams.length ? '' : i % 2 === 0 ? 'md:border-r md:border-gray-200' : ''}`}>
                         <div className="py-3 px-5 border border-green-400 rounded-lg transition duration-500 hover:bg-green-400/20">
