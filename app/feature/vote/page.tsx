@@ -10,7 +10,7 @@ interface UnVotedState {
   email: string;
 }
 
-function graph() {
+function Graph() {
   const [votedState, setVoteState] = useState<VotedState[]>([]);
   const [unvote, setUnvote] = useState<UnVotedState[]>([]);
 
@@ -55,4 +55,4 @@ function graph() {
   )
 }
 
-export default graph
+export default Graph
