@@ -31,23 +31,28 @@ function Graph() {
     <div className="container flex justify-center items-center min-h-[100vh] flex-wrap gap-4">
       <Chart></Chart>
       <div className="flex gap-4 flex-wrap justify-center">
-        <div className="voted max-h-[500px] overflow-y-scroll">
-          <h2 className='text-[#fff]'>{`Voted (${votedState.length})`}</h2>
-          {votedState.length ?
-            votedState.map((t, i) => (
-              <div className="text-[#fff]" key={i}>{t.email}</div>
-            ))
-            : <h2 className='text-[#fff]'>Loading Data...</h2>
-          }
+        <div className="box">
+          <h2 className='text-[#49e223]'>{`Voted (${votedState.length})`}</h2>
+          <div className="voted max-h-[500px] overflow-y-scroll">
+            {votedState.length ?
+              votedState.map((t, i) => (
+                <div className="text-[#fff]" key={i}>{t.email}</div>
+              ))
+              : <h2 className='text-[#fff]'>Loading Data...</h2>
+            }
+          </div>
         </div>
-        <div className="unvote max-h-[500px] overflow-y-scroll">
-          <h2 className='text-[#fff]'>{`Unvote (${unvote.length})`}</h2>
-          {unvote.length && votedState.length ?
-            unvote.map((t, i) => (
-              <div className="text-[#fff]" key={i}>{t.email}</div>
-            ))
-            : <h2 className='text-[#fff]'>Loading Data...</h2>
-          }
+        <div className="box">
+          <h2 className='text-[#f13f3f]'>{`Unvote (${unvote.length})`}</h2>
+          <div className="unvote max-h-[500px] overflow-y-scroll">
+            {unvote.length && votedState.length ?
+              unvote.map((t, i) => (
+                <div className="text-[#fff]" key={i}>{t.email}</div>
+              ))
+              : <h2 className='text-[#fff]'>Loading Data...</h2>
+            }
+          </div>
+
         </div>
       </div>
     </div>
