@@ -27,7 +27,13 @@ interface PieChartState {
   series: number[];
 }
 
-const PieChart: React.FC = () => {
+interface PieChartProps {
+  data: {[design: string]: number };
+}
+
+
+const PieChart: React.FC<PieChartProps> = ({data}) => {
+  console.log(data)
   const state: PieChartState = {
     options: {
       labels: ['Design 1', 'Design 2', 'Design 3', 'Design 4','Design 5','Design 6'],
@@ -52,7 +58,7 @@ const PieChart: React.FC = () => {
         },
       ],
     },
-    series: [44, 55, 13, 43,10,10],
+    series: [data['Design 1'],data['Design 2'],data['Design 3'],data['Design 4'],data['Design 5'],data['Design 6']],
   };
 
   return (

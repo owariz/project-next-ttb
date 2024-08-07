@@ -9,27 +9,44 @@ interface VotedState {
 interface UnVotedState {
   email: string;
 }
+interface VoteCountI {
+  [design: string]: number;
+}
 
 function Graph() {
   const [votedState, setVoteState] = useState<VotedState[]>([]);
   const [unvote, setUnvote] = useState<UnVotedState[]>([]);
+  const [voteCount, setVoteCount] = useState<VoteCountI>({});
 
   async function fetchData() {
-    const up1 = await axios.get('https://script.googleusercontent.com/macros/echo?user_content_key=hUkMcl3Us3mR6y6-yXC6SH9JNNmhlr4KOdIkQe7JAl0XvN69MCEvfrD5wlNJP5KsNjpJwYpfkB17T7hM97A8_pDu7frEGixBm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnC_1CVvvI7a0MTQcNb_xJ2Sz1GcMapUON0a7I-aLEIpKoYAWwFLKd-P5zFpVN-zjXZtD5axXLUjTYJnsK6TEtIawMeBn2Rj_wdz9Jw9Md8uu&lib=M4-ecmCqi_YwYiq8D3o0XjJJTJkAXYKLq');
+    const up1 = await axios.get('https://script.google.com/macros/s/AKfycbzI-dUR1wtq3eFBcodTt6xKSemdphRAb3ucIlzA9HOUa_1a11V9aAjTlbg8bX2146foEg/exec');
     setVoteState(up1.data.data)
     const up2 = await axios.get('/api/feature/vote')
 
     const setA = new Set(up1.data.data.map((t: any) => t.email));
     const filteredB = up2.data.data.filter((item: any) => !setA.has(item.email));
     setUnvote(filteredB)
-
   }
   useEffect(() => {
     fetchData()
   }, [])
+  useEffect(()=>{
+    const count: VoteCountI = {};
+
+    votedState.forEach((t:any) => {
+      if (count[t.vote]) {
+        count[t.vote]++;
+      } else {
+        count[t.vote] = 1;
+      }
+    });
+    setVoteCount(count);  
+  },[votedState])
   return (
     <div className="container flex justify-center items-center min-h-[100vh] flex-wrap gap-4">
-      <Chart></Chart>
+    {Object.keys(voteCount).length > 0?
+        <Chart data={voteCount} />
+        :<h2 className='text-[#fff]'>Loading Gharp...</h2> }
       <div className="flex gap-4 flex-wrap justify-center">
         <div className="box">
           <h2 className='text-[#49e223]'>{`Voted (${votedState.length})`}</h2>
