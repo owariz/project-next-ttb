@@ -9,6 +9,7 @@ import FA from 'f-analytics'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import VerticalBar from "@/components/core/VerticalBar";
 
 export default function Home() {
   useEffect(() => {
@@ -43,6 +44,7 @@ export default function Home() {
           <div className="w-full">
             <div className="mb-24 md:mb-32">
               <Project />
+              <VerticalBar></VerticalBar>
               <Developer />
             </div>
           </div>
