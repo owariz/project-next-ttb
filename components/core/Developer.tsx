@@ -58,7 +58,7 @@ export default function Developer() {
                             </div>
                         </div>
                     </div>
-                ))}
+                ))} 
             </div>
         </>
     )

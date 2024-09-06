@@ -3,7 +3,7 @@ import React from 'react'
 
 function VerticalBar() {
   return (
-    <div data-aos="fade-right" className="vt-container hidden md:visible md:flex mb-4">   
+    <div data-aos="fade-right" className="vt-container hidden lg:visible lg:flex lg-4">   
         <div className="bar relative min-h-screen bg-[#27ff52] w-[20%] opacity-20 transition-all hover:opacity-[1] hover:scale-110 flex justify-center items-center">
             <img className='object-cover absolute h-full brightness-50' src='https://images7.alphacoders.com/133/1337527.png'></img>
             <h2 className='text-[#fff] text-4xl text-center z-20'>Code is poetry</h2>
